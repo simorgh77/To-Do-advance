@@ -1,0 +1,39 @@
+@keyframes anime {
+    0%{
+transform: rotate(0);
+    }
+    30%{
+transform: rotate(30deg);
+    }
+    60%{
+transform: rotate(90deg);
+    }
+    100%{
+transform: rotate(180deg);
+    }
+}
+@keyframes anime2 {
+    0%{
+transform: rotate(-180deg);
+    }
+    30%{
+transform: rotate(-90deg);
+    }
+    60%{
+transform: rotate(-30deg);
+    }
+    100%{
+transform: rotate(0);
+    }
+}
+.ArrowDown{
+
+animation: anime 0.2s ease;
+animation-fill-mode: forwards;
+}
+
+.ArrowUp{
+
+    animation:anime2 0.2s ease;
+    animation-fill-mode: forwards;
+}

@@ -1,0 +1,22 @@
+.slidebar{
+width: 15rem;
+height: 100%;
+background-color: rgb(255, 253, 253);
+position: absolute;
+top:0;
+right: 0;
+z-index:1 ;
+}
+@keyframes example {
+    from {background-color: rgba(71, 71, 71, 0.377);}
+    to {background-color: rgba(71, 71, 71, 0.377);}
+  }
+.whole_body{
+position: absolute;
+    width: 90rem;
+    height: 47.42rem;
+    top: 0;
+    animation-name: example;
+    animation-duration: 0.1;
+    animation-fill-mode: forwards
+}

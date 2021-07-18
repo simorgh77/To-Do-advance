@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+#nav{
+  background-color: #6200EA;
+}
+
+.pic{
+
+  margin-top: 10%;
+}

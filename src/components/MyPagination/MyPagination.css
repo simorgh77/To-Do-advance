@@ -1,0 +1,15 @@
+.pagination{
+
+    position: relative;
+    bottom:60% ;
+    left:85%;
+    font-size:smaller ;
+    
+}
+
+.form{
+    border-bottom: 1px solid lightgray ;
+    border-right: none;
+    border-left:none;
+    border-top: none ;
+}
